@@ -1,0 +1,91 @@
+pre {
+    width: 600px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+}
+
+body {
+    margin: auto;
+    max-width:600px;
+    line-height:1.6;
+    font-size:24px;
+    padding:0 10px
+}
+
+h1 {
+    font-size: 64px;
+    font-variant: small-caps;
+}
+
+#license {
+    font-size:8px;
+    margin:0px;
+    margin-top: 10px;
+    width:100%;
+}
+
+.comboOuter{
+    margin: 0 auto;
+}
+
+.comboInner {
+    text-align: center;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+}
+
+.comboShortName {
+    font-size:10vmax;
+}
+
+.comboLongName {
+    font-size:8vmax;
+}
+
+.tooltipRight {
+    margin-left: 5px;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.checkbox input {
+    margin-top: 12px;
+}
+
+.control-label {
+    font-size: 36px;
+    font-variant: small-caps;
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 36px;
+    }
+    .control-label {
+        font-size: 23px;
+    }
+    body {
+        margin: 0px;
+        font-size:18px;
+    }
+    .checkbox input {
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+    .control-label {
+        font-size: 30px;
+    }
+    body {
+        margin: 0px;
+        font-size:20px;
+    }
+    .checkbox input {
+        margin-top: 10px;
+    }
+}
