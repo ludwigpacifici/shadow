@@ -1,5 +1,3 @@
-<p align="center"><img src="https://raw.githubusercontent.com/ludwigpacifici/shadow/master/header.jpg"/></p>
-
 # Shadow &#x1f44a;
 
 A [shadowboxing](https://en.wikipedia.org/wiki/Shadowboxing) application. The application takes care of the combo and you focus on your technique.
